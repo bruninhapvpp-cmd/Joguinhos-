@@ -1,0 +1,31 @@
+{
+  "name": "arcade-collectible-bot",
+  "version": "1.0.0",
+  "description": "Premium Telegram Collectible Arcade Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "arcade",
+    "collectibles",
+    "gacha",
+    "gachapon"
+  ],
+  "author": "bruninhapvpp-cmd",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
